@@ -45,7 +45,7 @@ jobs:
 
             ## First run Rector - here can't be --dry-run !!! it would stop the job with it and not commit anything in the future
             -   run: vendor/bin/rector process src/Service/MyService.php --ansi --no-progress-bar --debug
-            -   run: vendor/bin/rector process src/Entity/Document.php --ansi --no-progress-bar --debug
+              #-   run: vendor/bin/rector process src/Entity/Document.php --ansi --no-progress-bar --debug
 
 #            -   run: vendor/bin/ecs check --match-git-diff --fix --ansi
 #
